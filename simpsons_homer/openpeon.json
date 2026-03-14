@@ -2,7 +2,7 @@
   "name": "simpsons_homer",
   "display_name": "Homer Simpson",
   "version": "1.0.0",
-  "description": "Homer Simpson quotes for your Claude Code notifications. 11 clips across 6 categories.",
+  "description": "Homer Simpson quotes for your Claude Code notifications. 14 clips across 6 categories.",
   "author": {
     "name": "bdrang",
     "github": "bdrang"
@@ -34,6 +34,11 @@
     "task.acknowledge": {
       "sounds": [
         {
+          "file": "sounds/mmm-donuts.mp3",
+          "sha256": "ae4371bb07a63c8c29932ce0e68143ce63f3c9c6397aef60b98c8c1d9de85111",
+          "label": "Mmm, donuts."
+        },
+        {
           "file": "sounds/mbeernut.mp3",
           "sha256": "832262f3003e63b5e4bfb955ccfbeeb6b3151effa383cffc08e16456b455ce05",
           "label": "Mmm, beer nuts."
@@ -58,6 +63,11 @@
     "task.complete": {
       "sounds": [
         {
+          "file": "sounds/woohoo.mp3",
+          "sha256": "14b4b08469988f37d58abb0ad1a15be97fe81721448149da1181ee43dd3a6d67",
+          "label": "Woohoo!"
+        },
+        {
           "file": "sounds/fatkid.mp3",
           "sha256": "4cc3e4cfb6da5c322c255cb51efde18126980cafac805f8cb957566558892f3e",
           "label": "That kid's got bosoms!"
@@ -66,6 +76,11 @@
     },
     "task.error": {
       "sounds": [
+        {
+          "file": "sounds/why-you-little.mp3",
+          "sha256": "5da381839e197f1ee1d47efe76060aa4d1f970165eef2dcff3226500d320edd6",
+          "label": "Why you little...!"
+        },
         {
           "file": "sounds/doh1.mp3",
           "sha256": "7656101498d05d350bcc2dbb1c3b998232728e0de13021f1783113da55b1adf5",
